@@ -1,0 +1,51 @@
+{
+  "name": "cae91a45-1c30-4ae1-81f2-09b00b217f26",
+  "displayName": "Pigeon Fact Redirect",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "TODO: [insert fact]. Want to hear another?" ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirm",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Pigeon Fact Redirect",
+    "name": "6b321e33-c541-4d51-ad57-648dccc38a39"
+  }, {
+    "intent": "Deny",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "TODO: enough facts for one day, i get it. let's go back to coop. i can teach you about composite, observer, strategy" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetPage": "Home",
+    "name": "81da33e4-a90c-4736-b9c4-9c56ae5ea115"
+  } ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "8cf9380c-4d86-42ea-9a1b-ece0512a42b6",
+  "displayName": "Deny",
+  "parameters": [ {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 13
+}

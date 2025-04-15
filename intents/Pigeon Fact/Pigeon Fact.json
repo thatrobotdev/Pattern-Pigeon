@@ -1,0 +1,7 @@
+{
+  "name": "703f3587-513c-484b-9d39-466a04d74983",
+  "displayName": "Pigeon Fact",
+  "priority": 500000,
+  "description": "This intent is triggered when the user wants to hear a pigeon fact.",
+  "numTrainingPhrases": 7
+}

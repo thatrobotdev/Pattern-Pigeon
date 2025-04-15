@@ -1,0 +1,47 @@
+{
+  "name": "30c17d9e-36a8-4a5c-a52b-bb6fffef0c75",
+  "displayName": "Observer Confirmation",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirm",
+    "triggerFulfillment": {
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Observer",
+    "name": "3531b3a6-1a86-47f0-ab59-0cc5be5c6454"
+  }, {
+    "intent": "Deny",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Back to the birdhouse we go!", "That's okay. Let's start over." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Here’s a quick reminder of what I can help you with: Strategy, Composite, Observer. Just say the name of a pattern, and I’ll wing it from there!", "🐦 Welcome back to the roost! Here’s a quick reminder of what I can help you with: Strategy, Composite, Observer. Just say the name of a pattern, and I’ll wing it from there!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetPage": "Home",
+    "name": "4ae71af8-bc11-4e0e-a27b-fcb5674e4bf0"
+  } ]
+}
