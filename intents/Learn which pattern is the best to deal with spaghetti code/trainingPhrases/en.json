@@ -1,0 +1,44 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Any pattern suggestions for dealing with a mess of if-else statements?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can design patterns help with unstructured code?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What's a good pattern to manage chaotic code?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Which pattern is best for reducing messy code?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What design pattern can help clean up spaghetti code?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What pattern is the best to deal with spaghetti code?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "00e7c0ae-6179-47c4-8e83-f1b3eb0c9138",
+  "displayName": "Home",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "Learn which pattern is the best to deal with spaghetti code",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "🪶 Coo! The Observer pattern is just the thing to untangle a spaghetti nest of code! It helps different parts of your app chirp updates without pecking at each other directly.", "Observer’s great for flying above the mess—no more flapping around in a tangled code coop! It helps decouple your components, so changes don’t cause a featherstorm.", "🪺 Got a codebase that’s more nest than neat? Observer is egg-cellent for keeping modules loosely coupled—no more squawking dependencies!", "🐓 When your code’s a coop full of chaos, Observer brings order by letting parts listen for changes instead of constantly chirping at each other." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Would you like to learn more about how Observer flaps its wings?", "Care to peck into Observer a bit more?", "Want to dive deeper into this pattern with me?", "Shall we perch and learn more about how it works?", "Want me to ruffle through the details of Observer with you?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetPage": "Observer Confirmation",
+    "name": "b0175dc8-c93e-4966-9b99-22d5aa0896fc"
+  }, {
+    "intent": "Pigeon Fact",
+    "triggerFulfillment": {
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetPage": "Pigeon Fact Redirect",
+    "name": "776c0820-d6ae-4019-9f47-3ffa11a2bff7",
+    "description": "User wants to hear a pigeon fact."
+  } ]
+}
