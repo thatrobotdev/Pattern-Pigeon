@@ -1,0 +1,58 @@
+{
+  "name": "bcf2e305-b82c-4f0e-94fc-c8479120ea40",
+  "displayName": "Home routes",
+  "transitionRoutes": [ {
+    "intent": "Pigeon Fact",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Pigeon Fact Redirect",
+    "name": "99abf87a-e87f-4bc4-9025-456340db1318",
+    "description": "User wants to hear a pigeon fact."
+  }, {
+    "intent": "Learn about the Observer pattern",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Coo coo! Observer it is! What would you like to learn about?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Observer",
+    "name": "a8c619b7-52f4-463b-8ad5-cd86a87a2cb0"
+  }, {
+    "intent": "Learn which pattern is the best to deal with spaghetti code",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "🪶 Coo! The Observer pattern is just the thing to untangle a spaghetti nest of code! It helps different parts of your app chirp updates without pecking at each other directly.", "Observer’s great for flying above the mess—no more flapping around in a tangled code coop! It helps decouple your components, so changes don’t cause a featherstorm.", "🪺 Got a codebase that’s more nest than neat? Observer is egg-cellent for keeping modules loosely coupled—no more squawking dependencies!", "🐓 When your code’s a coop full of chaos, Observer brings order by letting parts listen for changes instead of constantly chirping at each other." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Would you like to learn more about how Observer flaps its wings?", "Care to peck into Observer a bit more?", "Want me to ruffle through the details of Observer with you?", "Shall we perch and learn more about how it works?", "Want to dive deeper into this pattern with me?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetPage": "Observer Confirmation",
+    "name": "9acf1e1c-c613-4f38-9120-4d47de73d84a"
+  } ]
+}

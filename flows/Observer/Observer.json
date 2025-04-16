@@ -20,6 +20,31 @@
       }
     },
     "name": "6813f5dc-ca7e-4774-882d-91bf936ff343"
+  }, {
+    "intent": "Go home",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Enough Observer for now, back to the coop!", "Coo coo! Let's start again." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "What to dive into next, Composite, Observer, or Strategy?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "8fc7b7cc-530c-4229-98af-8d1493559f76"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -51,7 +76,6 @@
   "nluSettingsList": [ {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001,
-    "customConfigKey": "6d789fb9-bed2-47cf-a7b1-566a0c6b0dd8",
     "languageCode": "en"
   } ]
 }
