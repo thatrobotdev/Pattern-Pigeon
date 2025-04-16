@@ -1,36 +1,71 @@
 {
   "name": "657c5c35-3663-40a6-9b84-8ce8eea60514",
   "displayName": "Strategy",
-  "eventHandlers": [ {
-    "event": "sys.no-match-default",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
-        },
-        "languageCode": "en"
-      } ]
+  "eventHandlers": [
+    {
+      "event": "sys.no-match-default",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Huh? Say that again, coo?",
+                "Whaaat? I missed that, try flappin' it my way once more.",
+                "Ey, sorry buddy, didn't catch that–mind sayin' it again?",
+                "Squack! Can ya repeat that for me?",
+                "One more peep? Didn't quite get it!",
+                "Whoa whoa whoa–run that by me again?",
+                "Coo? What'd you just say?",
+                "Say it again, pal–I was peckin' at somethin' shiny.",
+                "Wings down, I didn't hear ya–one more time?",
+                "Can ya chirp that again? I zoned out mid-coo.",
+                "Uh-oh, missed that one—gimme a repeat?",
+                "Mind tossin’ those words my way again, chief?"
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      },
+      "name": "60881fa3-3872-40e7-9359-84d8410e89db"
     },
-    "name": "60881fa3-3872-40e7-9359-84d8410e89db"
-  }, {
-    "event": "sys.no-input-default",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "name": "4894f4ad-1087-4bce-a115-7c2c206ca251"
-  } ],
+    {
+      "event": "sys.no-input-default",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Huh? Say that again, coo?",
+                "Whaaat? I missed that, try flappin' it my way once more.",
+                "Ey, sorry buddy, didn't catch that–mind sayin' it again?",
+                "Squack! Can ya repeat that for me?",
+                "One more peep? Didn't quite get it!",
+                "Whoa whoa whoa–run that by me again?",
+                "Coo? What'd you just say?",
+                "Say it again, pal–I was peckin' at somethin' shiny.",
+                "Wings down, I didn't hear ya–one more time?",
+                "Can ya chirp that again? I zoned out mid-coo.",
+                "Uh-oh, missed that one—gimme a repeat?",
+                "Mind tossin’ those words my way again, chief?"
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      },
+      "name": "4894f4ad-1087-4bce-a115-7c2c206ca251"
+    }
+  ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001
   },
-  "nluSettingsList": [ {
-    "modelType": "MODEL_TYPE_ADVANCED",
-    "classificationThreshold": 0.30000001,
-    "languageCode": "en"
-  } ]
+  "nluSettingsList": [
+    {
+      "modelType": "MODEL_TYPE_ADVANCED",
+      "classificationThreshold": 0.30000001,
+      "languageCode": "en"
+    }
+  ]
 }

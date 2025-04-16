@@ -1,81 +1,127 @@
 {
   "name": "2c24fbf8-647f-49fe-8de3-bf84986fea01",
   "displayName": "Observer",
-  "transitionRoutes": [ {
-    "intent": "Confirm",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "TODO observer" ]
-        },
-        "languageCode": "en"
-      } ],
-      "advancedSettings": {
-        "playbackInterruptionSettings": {
-        
-        },
-        "dtmfSettings": {
-          "useSystemEntityRule": false
+  "transitionRoutes": [
+    {
+      "intent": "Confirm",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "TODO observer"
+              ]
+            },
+            "languageCode": "en"
+          }
+        ],
+        "advancedSettings": {
+          "playbackInterruptionSettings": {},
+          "dtmfSettings": {
+            "useSystemEntityRule": false
+          }
         }
-      }
+      },
+      "name": "6813f5dc-ca7e-4774-882d-91bf936ff343"
     },
-    "name": "6813f5dc-ca7e-4774-882d-91bf936ff343"
-  }, {
-    "intent": "Go home",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Enough Observer for now, back to the coop!", "Coo coo! Let's start again." ]
-        },
-        "languageCode": "en"
-      }, {
-        "text": {
-          "text": [ "What to dive into next, Composite, Observer, or Strategy?" ]
-        },
-        "languageCode": "en"
-      } ],
-      "advancedSettings": {
-        "playbackInterruptionSettings": {
-        
-        },
-        "dtmfSettings": {
-          "useSystemEntityRule": false
+    {
+      "intent": "Go home",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Enough Observer for now, back to the coop!",
+                "Coo coo! Let's start again."
+              ]
+            },
+            "languageCode": "en"
+          },
+          {
+            "text": {
+              "text": [
+                "What to dive into next, Composite, Observer, or Strategy?"
+              ]
+            },
+            "languageCode": "en"
+          }
+        ],
+        "advancedSettings": {
+          "playbackInterruptionSettings": {},
+          "dtmfSettings": {
+            "useSystemEntityRule": false
+          }
         }
-      }
+      },
+      "targetFlow": "Default Start Flow",
+      "name": "8fc7b7cc-530c-4229-98af-8d1493559f76"
+    }
+  ],
+  "eventHandlers": [
+    {
+      "event": "sys.no-match-default",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Huh? Say that again, coo?",
+                "Whaaat? I missed that, try flappin' it my way once more.",
+                "Ey, sorry buddy, didn't catch that–mind sayin' it again?",
+                "Squack! Can ya repeat that for me?",
+                "One more peep? Didn't quite get it!",
+                "Whoa whoa whoa–run that by me again?",
+                "Coo? What'd you just say?",
+                "Say it again, pal–I was peckin' at somethin' shiny.",
+                "Wings down, I didn't hear ya–one more time?",
+                "Can ya chirp that again? I zoned out mid-coo.",
+                "Uh-oh, missed that one—gimme a repeat?",
+                "Mind tossin’ those words my way again, chief?"
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      },
+      "name": "d443a09f-80a8-4086-9361-d0552c9f25b6"
     },
-    "targetFlow": "Default Start Flow",
-    "name": "8fc7b7cc-530c-4229-98af-8d1493559f76"
-  } ],
-  "eventHandlers": [ {
-    "event": "sys.no-match-default",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "name": "d443a09f-80a8-4086-9361-d0552c9f25b6"
-  }, {
-    "event": "sys.no-input-default",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "name": "6a778d51-e693-4d9b-bae2-8bdb780c2d2e"
-  } ],
+    {
+      "event": "sys.no-input-default",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Huh? Say that again, coo?",
+                "Whaaat? I missed that, try flappin' it my way once more.",
+                "Ey, sorry buddy, didn't catch that–mind sayin' it again?",
+                "Squack! Can ya repeat that for me?",
+                "One more peep? Didn't quite get it!",
+                "Whoa whoa whoa–run that by me again?",
+                "Coo? What'd you just say?",
+                "Say it again, pal–I was peckin' at somethin' shiny.",
+                "Wings down, I didn't hear ya–one more time?",
+                "Can ya chirp that again? I zoned out mid-coo.",
+                "Uh-oh, missed that one—gimme a repeat?",
+                "Mind tossin’ those words my way again, chief?"
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      },
+      "name": "6a778d51-e693-4d9b-bae2-8bdb780c2d2e"
+    }
+  ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001
   },
-  "nluSettingsList": [ {
-    "modelType": "MODEL_TYPE_ADVANCED",
-    "classificationThreshold": 0.30000001,
-    "languageCode": "en"
-  } ]
+  "nluSettingsList": [
+    {
+      "modelType": "MODEL_TYPE_ADVANCED",
+      "classificationThreshold": 0.30000001,
+      "languageCode": "en"
+    }
+  ]
 }
