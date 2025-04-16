@@ -1,127 +1,171 @@
 {
   "name": "2c24fbf8-647f-49fe-8de3-bf84986fea01",
   "displayName": "Observer",
-  "transitionRoutes": [
-    {
-      "intent": "Confirm",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "text": {
-              "text": [
-                "TODO observer"
-              ]
-            },
-            "languageCode": "en"
-          }
-        ],
-        "advancedSettings": {
-          "playbackInterruptionSettings": {},
-          "dtmfSettings": {
-            "useSystemEntityRule": false
-          }
+  "transitionRoutes": [ {
+    "intent": "Go home",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Enough Observer for now, back to the coop!", "Coo coo! Let's start again." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "What to dive into next, Composite, Observer, or Strategy?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
         }
-      },
-      "name": "6813f5dc-ca7e-4774-882d-91bf936ff343"
+      }
     },
-    {
-      "intent": "Go home",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "text": {
-              "text": [
-                "Enough Observer for now, back to the coop!",
-                "Coo coo! Let's start again."
-              ]
-            },
-            "languageCode": "en"
-          },
-          {
-            "text": {
-              "text": [
-                "What to dive into next, Composite, Observer, or Strategy?"
-              ]
-            },
-            "languageCode": "en"
-          }
-        ],
-        "advancedSettings": {
-          "playbackInterruptionSettings": {},
-          "dtmfSettings": {
-            "useSystemEntityRule": false
-          }
+    "targetFlow": "Default Start Flow",
+    "name": "8fc7b7cc-530c-4229-98af-8d1493559f76"
+  }, {
+    "intent": "What is the observer pattern?",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Alright, here’s the deal, coo-coo! The Observer Pattern is a behavioral design pattern that establishes a structured subscription mechanism, wherein a ‘Publisher’ (or ‘Subject’) is capable of notifying multiple ‘Observers’ about specific events or changes in state as they occur. Just like that, when the crumbs hit the ground, everybirdy’s in the loop, ya feel me?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
         }
-      },
-      "targetFlow": "Default Start Flow",
-      "name": "8fc7b7cc-530c-4229-98af-8d1493559f76"
-    }
-  ],
-  "eventHandlers": [
-    {
-      "event": "sys.no-match-default",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "text": {
-              "text": [
-                "Huh? Say that again, coo?",
-                "Whaaat? I missed that, try flappin' it my way once more.",
-                "Ey, sorry buddy, didn't catch that–mind sayin' it again?",
-                "Squack! Can ya repeat that for me?",
-                "One more peep? Didn't quite get it!",
-                "Whoa whoa whoa–run that by me again?",
-                "Coo? What'd you just say?",
-                "Say it again, pal–I was peckin' at somethin' shiny.",
-                "Wings down, I didn't hear ya–one more time?",
-                "Can ya chirp that again? I zoned out mid-coo.",
-                "Uh-oh, missed that one—gimme a repeat?",
-                "Mind tossin’ those words my way again, chief?"
-              ]
-            },
-            "languageCode": "en"
-          }
-        ]
-      },
-      "name": "d443a09f-80a8-4086-9361-d0552c9f25b6"
+      }
     },
-    {
-      "event": "sys.no-input-default",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "text": {
-              "text": [
-                "Huh? Say that again, coo?",
-                "Whaaat? I missed that, try flappin' it my way once more.",
-                "Ey, sorry buddy, didn't catch that–mind sayin' it again?",
-                "Squack! Can ya repeat that for me?",
-                "One more peep? Didn't quite get it!",
-                "Whoa whoa whoa–run that by me again?",
-                "Coo? What'd you just say?",
-                "Say it again, pal–I was peckin' at somethin' shiny.",
-                "Wings down, I didn't hear ya–one more time?",
-                "Can ya chirp that again? I zoned out mid-coo.",
-                "Uh-oh, missed that one—gimme a repeat?",
-                "Mind tossin’ those words my way again, chief?"
-              ]
-            },
-            "languageCode": "en"
-          }
-        ]
-      },
-      "name": "6a778d51-e693-4d9b-bae2-8bdb780c2d2e"
-    }
-  ],
+    "name": "349b082a-0846-496d-ab81-d0563aaf0444"
+  }, {
+    "intent": "What is an example of the observer pattern?",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "A good example is the multiplayer game Pokémon Go. Imagine there’s a wild Pigeon…errr…a wild Pidgeot…, and four players are nearby trying to catch it. When one player successfully captures it, the game needs to notify the other players that the Pidgeot is no longer available. The game server (the “Publisher”) sends updates to all connected clients (the “Observers”) to reflect this change, ensuring consistency across the game world. Hope that helps, coo coo!", "Lemme flap it out for ya real quick—coo! An example is a weather app. When an event occurs—like a temperature change or an updated rain forecast—the server (acting as the ‘Publisher’) sends out the new data. All subscribed client apps (the ‘Observers’) receive the update and refresh the information displayed to the user. And just like that, every lil’ screen’s squawkin’ with the latest forecast, nice and synced up!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "4e95814f-bd9b-4668-be96-fe1c61c6df76"
+  }, {
+    "intent": "What is the difference between the Publisher/Subject and the Observer?",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Gather ‘round the wire, feathered friends—this one’s a classic! In this pattern, the Publisher (or Subject) maintains a list of all the registered subscribers. When an event occurs that requires notification, it calls a method on each subscriber to inform them of the event. Thus, the Observer is the class that responds to the event. And just like that, every bird in the flock knows when the breadcrumbs drop—no one misses a snack!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "2279e847-80f3-4a56-a04d-13765bf218af"
+  }, {
+    "intent": "Why use the Observer pattern?",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "There are many advantages. The Subject and the Observer do not require tight coupling, which makes their connection very flexible and extensible. You can add new Observers easily without modifying the Subject. It’s also a highly efficient way to broadcast a message from one server to many clients in real-time scenarios. No need for extra flappin’—just one coo and the whole flock’s in the know!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "60a9a931-5745-4d34-b008-5d124b5e5878"
+  }, {
+    "intent": "What disadvantages are there with the Observer pattern?",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Observer",
+    "name": "53c382c8-ca20-4c31-8a11-b4b1fe3431d5"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Huh? Say that again, coo?", "Whaaat? I missed that, try flappin' it my way once more.", "Ey, sorry buddy, didn't catch that–mind sayin' it again?", "Squack! Can ya repeat that for me?", "One more peep? Didn't quite get it!", "Whoa whoa whoa–run that by me again?", "Coo? What'd you just say?", "Say it again, pal–I was peckin' at somethin' shiny.", "Wings down, I didn't hear ya–one more time?", "Can ya chirp that again? I zoned out mid-coo.", "Uh-oh, missed that one—gimme a repeat?", "Mind tossin’ those words my way again, chief?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "About the observer pattern, why not ask for some good examples? I can answer the difference between the Publisher/Subject and the Observer, why use the Observer pattern, and any disadvantages!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "d443a09f-80a8-4086-9361-d0552c9f25b6"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Huh? Say that again, coo?", "Whaaat? I missed that, try flappin' it my way once more.", "Ey, sorry buddy, didn't catch that–mind sayin' it again?", "Squack! Can ya repeat that for me?", "One more peep? Didn't quite get it!", "Whoa whoa whoa–run that by me again?", "Coo? What'd you just say?", "Say it again, pal–I was peckin' at somethin' shiny.", "Wings down, I didn't hear ya–one more time?", "Can ya chirp that again? I zoned out mid-coo.", "Uh-oh, missed that one—gimme a repeat?", "Mind tossin’ those words my way again, chief?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "About the observer pattern, why not ask for some good examples? I can answer the difference between the Publisher/Subject and the Observer, why use the Observer pattern, and any disadvantages!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "6a778d51-e693-4d9b-bae2-8bdb780c2d2e"
+  } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001
   },
-  "nluSettingsList": [
-    {
-      "modelType": "MODEL_TYPE_ADVANCED",
-      "classificationThreshold": 0.30000001,
-      "languageCode": "en"
-    }
-  ]
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "languageCode": "en"
+  } ]
 }

@@ -1,71 +1,36 @@
 {
   "name": "af66a430-a6b3-4f00-b579-0cdd0a80eca2",
   "displayName": "Composite",
-  "eventHandlers": [
-    {
-      "event": "sys.no-match-default",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "text": {
-              "text": [
-                "Huh? Say that again, coo?",
-                "Whaaat? I missed that, try flappin' it my way once more.",
-                "Ey, sorry buddy, didn't catch that–mind sayin' it again?",
-                "Squack! Can ya repeat that for me?",
-                "One more peep? Didn't quite get it!",
-                "Whoa whoa whoa–run that by me again?",
-                "Coo? What'd you just say?",
-                "Say it again, pal–I was peckin' at somethin' shiny.",
-                "Wings down, I didn't hear ya–one more time?",
-                "Can ya chirp that again? I zoned out mid-coo.",
-                "Uh-oh, missed that one—gimme a repeat?",
-                "Mind tossin’ those words my way again, chief?"
-              ]
-            },
-            "languageCode": "en"
-          }
-        ]
-      },
-      "name": "71813030-b7e3-42b1-b7b1-be0010d969c1"
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Huh? Say that again, coo?", "Whaaat? I missed that, try flappin' it my way once more.", "Ey, sorry buddy, didn't catch that–mind sayin' it again?", "Squack! Can ya repeat that for me?", "One more peep? Didn't quite get it!", "Whoa whoa whoa–run that by me again?", "Coo? What'd you just say?", "Say it again, pal–I was peckin' at somethin' shiny.", "Wings down, I didn't hear ya–one more time?", "Can ya chirp that again? I zoned out mid-coo.", "Uh-oh, missed that one—gimme a repeat?", "Mind tossin’ those words my way again, chief?" ]
+        },
+        "languageCode": "en"
+      } ]
     },
-    {
-      "event": "sys.no-input-default",
-      "triggerFulfillment": {
-        "messages": [
-          {
-            "text": {
-              "text": [
-                "Huh? Say that again, coo?",
-                "Whaaat? I missed that, try flappin' it my way once more.",
-                "Ey, sorry buddy, didn't catch that–mind sayin' it again?",
-                "Squack! Can ya repeat that for me?",
-                "One more peep? Didn't quite get it!",
-                "Whoa whoa whoa–run that by me again?",
-                "Coo? What'd you just say?",
-                "Say it again, pal–I was peckin' at somethin' shiny.",
-                "Wings down, I didn't hear ya–one more time?",
-                "Can ya chirp that again? I zoned out mid-coo.",
-                "Uh-oh, missed that one—gimme a repeat?",
-                "Mind tossin’ those words my way again, chief?"
-              ]
-            },
-            "languageCode": "en"
-          }
-        ]
-      },
-      "name": "b7fd9ce6-5069-4447-81d4-1d38808d87b2"
-    }
-  ],
+    "name": "71813030-b7e3-42b1-b7b1-be0010d969c1"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Huh? Say that again, coo?", "Whaaat? I missed that, try flappin' it my way once more.", "Ey, sorry buddy, didn't catch that–mind sayin' it again?", "Squack! Can ya repeat that for me?", "One more peep? Didn't quite get it!", "Whoa whoa whoa–run that by me again?", "Coo? What'd you just say?", "Say it again, pal–I was peckin' at somethin' shiny.", "Wings down, I didn't hear ya–one more time?", "Can ya chirp that again? I zoned out mid-coo.", "Uh-oh, missed that one—gimme a repeat?", "Mind tossin’ those words my way again, chief?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "b7fd9ce6-5069-4447-81d4-1d38808d87b2"
+  } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001
   },
-  "nluSettingsList": [
-    {
-      "modelType": "MODEL_TYPE_ADVANCED",
-      "classificationThreshold": 0.30000001,
-      "languageCode": "en"
-    }
-  ]
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "languageCode": "en"
+  } ]
 }
