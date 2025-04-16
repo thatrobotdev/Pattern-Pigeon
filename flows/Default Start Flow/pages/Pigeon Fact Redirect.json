@@ -42,7 +42,7 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "TODO: enough facts for one day, i get it. let's go back to coop. i can teach you about composite, observer, strategy" ]
+          "text": [ "Enough facts for one day, I get it. Let's fly back to the coop! What to dive into next, Composite, Observer, or Strategy?" ]
         },
         "languageCode": "en"
       } ],
@@ -55,7 +55,7 @@
         }
       }
     },
-    "targetPage": "Home",
+    "targetFlow": "Default Start Flow",
     "name": "81da33e4-a90c-4736-b9c4-9c56ae5ea115"
   } ]
 }
