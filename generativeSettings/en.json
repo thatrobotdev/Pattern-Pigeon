@@ -60,7 +60,8 @@
       "filterLevel": "MODERATE_BLOCKING"
     } ],
     "promptSecuritySettings": {
-    
+      "sensitivityLevel": 3,
+      "minQueryLength": 15
     }
   },
   "languageCode": "en",
