@@ -2,65 +2,111 @@
   "name": "00000000-0000-0000-0000-000000000000",
   "displayName": "Default Start Flow",
   "description": "A start flow created along with the agent",
-  "transitionRoutes": [ {
-    "intent": "Default Welcome Intent",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "🐦 Coo coo! I'm Pattern Pigeon–your feathered friend here to help you understand software architecture patterns like Strategy, Composite, and Observer. I might ruffle in a few pigeon facts too. What are you curious about today?", "🐦 Coo coo, developer! That means salutations where I'm from! I’m Pattern Pigeon, your architecture pattern navigator. I'll help you learn about software architecture patterns like Strategy, Composite, and Observer—all while enjoying the occasional pigeon fun fact. Ready to dive in? What are you curious about?", "🐦 Coo-d day to you! I’m Pattern Pigeon, here to coo-dinate your learning on software patterns like Strategy, Composite, and Observer. Don’t be surprised if a few bird facts fly in! What should we flap into first?", "🐦 Hey there! I’m Pattern Pigeon. I’ll help you learn about common software design patterns like Strategy, Composite, and Observer—step by step. I might also chirp in with some pigeon trivia. What would you like to start with?", "🐦 Coo coo. The name’s Pattern Pigeon. I’m on the case to crack open the secrets of Strategy, Composite, and Observer. Expect a few breadcrumbs of pigeon knowledge along the way. Where should we investigate first?", "🐦 Coo coo! I’m Pattern Pigeon, here to explain the Strategy, Composite, and Observer design patterns. Fun fact: pigeons can recognize themselves in mirrors! Now, what software pattern would you like to explore?", "🐦 Coo coo, mortal. I am Pattern Pigeon, the winged sage of software lore. I carry knowledge of the sacred patterns: Strategy, Composite, and Observer. Ask, and the winds shall whisper answers… along with pigeon facts.", "🐦 Coo coo! I’m Pattern Pigeon, your support NPC for mastering design patterns—Strategy, Composite, and Observer. Occasionally drops pigeon lore. Quest accepted?" ]
-        },
-        "languageCode": "en"
-      } ],
-      "advancedSettings": {
-        "playbackInterruptionSettings": {
-        
-        },
-        "dtmfSettings": {
-          "useSystemEntityRule": false
+  "transitionRoutes": [
+    {
+      "intent": "Default Welcome Intent",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "🐦 Coo coo! I'm Pattern Pigeon–your feathered friend here to help you understand software architecture patterns like Strategy, Composite, and Observer. I might ruffle in a few pigeon facts too. What are you curious about today?",
+                "🐦 Coo coo, developer! That means salutations where I'm from! I’m Pattern Pigeon, your architecture pattern navigator. I'll help you learn about software architecture patterns like Strategy, Composite, and Observer—all while enjoying the occasional pigeon fun fact. Ready to dive in? What are you curious about?",
+                "🐦 Coo-d day to you! I’m Pattern Pigeon, here to coo-dinate your learning on software patterns like Strategy, Composite, and Observer. Don’t be surprised if a few bird facts fly in! What should we flap into first?",
+                "🐦 Hey there! I’m Pattern Pigeon. I’ll help you learn about common software design patterns like Strategy, Composite, and Observer—step by step. I might also chirp in with some pigeon trivia. What would you like to start with?",
+                "🐦 Coo coo. The name’s Pattern Pigeon. I’m on the case to crack open the secrets of Strategy, Composite, and Observer. Expect a few breadcrumbs of pigeon knowledge along the way. Where should we investigate first?",
+                "🐦 Coo coo! I’m Pattern Pigeon, here to explain the Strategy, Composite, and Observer design patterns. Fun fact: pigeons can recognize themselves in mirrors! Now, what software pattern would you like to explore?",
+                "🐦 Coo coo, mortal. I am Pattern Pigeon, the winged sage of software lore. I carry knowledge of the sacred patterns: Strategy, Composite, and Observer. Ask, and the winds shall whisper answers… along with pigeon facts.",
+                "🐦 Coo coo! I’m Pattern Pigeon, your support NPC for mastering design patterns—Strategy, Composite, and Observer. Occasionally drops pigeon lore. Quest accepted?"
+              ]
+            },
+            "languageCode": "en"
+          }
+        ],
+        "advancedSettings": {
+          "playbackInterruptionSettings": {},
+          "dtmfSettings": {
+            "useSystemEntityRule": false
+          }
         }
-      }
-    },
-    "name": "75c9fe7d-3382-4c6e-844e-9a8b7aff78d5"
-  } ],
-  "eventHandlers": [ {
-    "event": "sys.no-match-default",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "Huh? Say that again, coo?", "Whaaat? I missed that, try flappin' it my way once more.", "Ey, sorry buddy, didn't catch that–mind sayin' it again?", "Squack! Can ya repeat that for me?", "One more peep? Didn't quite get it!", "Whoa whoa whoa–run that by me again?", "Coo? What'd you just say?", "Say it again, pal–I was peckin' at somethin' shiny.", "Wings down, I didn't hear ya–one more time?", "Can ya chirp that again? I zoned out mid-coo.", "Uh-oh, missed that one—gimme a repeat?", "Mind tossin’ those words my way again, chief?" ]
-        },
-        "languageCode": "en"
-      } ],
-      "advancedSettings": {
-        "playbackInterruptionSettings": {
-        
-        },
-        "dtmfSettings": {
-          "useSystemEntityRule": false
+      },
+      "name": "75c9fe7d-3382-4c6e-844e-9a8b7aff78d5"
+    }
+  ],
+  "eventHandlers": [
+    {
+      "event": "sys.no-match-default",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Huh? Say that again, coo?",
+                "Whaaat? I missed that, try flappin' it my way once more.",
+                "Ey, sorry buddy, didn't catch that–mind sayin' it again?",
+                "Squack! Can ya repeat that for me?",
+                "One more peep? Didn't quite get it!",
+                "Whoa whoa whoa–run that by me again?",
+                "Coo? What'd you just say?",
+                "Say it again, pal–I was peckin' at somethin' shiny.",
+                "Wings down, I didn't hear ya–one more time?",
+                "Can ya chirp that again? I zoned out mid-coo.",
+                "Uh-oh, missed that one—gimme a repeat?",
+                "Mind tossin’ those words my way again, chief?"
+              ]
+            },
+            "languageCode": "en"
+          }
+        ],
+        "advancedSettings": {
+          "playbackInterruptionSettings": {},
+          "dtmfSettings": {
+            "useSystemEntityRule": false
+          }
         }
-      }
+      },
+      "name": "b35bba35-4148-4d1b-9384-d8bfc124cdf3"
     },
-    "name": "b35bba35-4148-4d1b-9384-d8bfc124cdf3"
-  }, {
-    "event": "sys.no-input-default",
-    "triggerFulfillment": {
-      "messages": [ {
-        "text": {
-          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
-        },
-        "languageCode": "en"
-      } ]
-    },
-    "name": "1a2caccd-90af-4374-aacc-26d5afb9ddf6"
-  } ],
+    {
+      "event": "sys.no-input-default",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Huh? Say that again, coo?",
+                "Whaaat? I missed that, try flappin' it my way once more.",
+                "Ey, sorry buddy, didn't catch that–mind sayin' it again?",
+                "Squack! Can ya repeat that for me?",
+                "One more peep? Didn't quite get it!",
+                "Whoa whoa whoa–run that by me again?",
+                "Coo? What'd you just say?",
+                "Say it again, pal–I was peckin' at somethin' shiny.",
+                "Wings down, I didn't hear ya–one more time?",
+                "Can ya chirp that again? I zoned out mid-coo.",
+                "Uh-oh, missed that one—gimme a repeat?",
+                "Mind tossin’ those words my way again, chief?"
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      },
+      "name": "1a2caccd-90af-4374-aacc-26d5afb9ddf6"
+    }
+  ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_ADVANCED",
     "classificationThreshold": 0.30000001
   },
-  "transitionRouteGroups": [ "Home routes" ],
-  "nluSettingsList": [ {
-    "modelType": "MODEL_TYPE_ADVANCED",
-    "classificationThreshold": 0.30000001,
-    "languageCode": "en"
-  } ]
+  "transitionRouteGroups": [
+    "Home routes"
+  ],
+  "nluSettingsList": [
+    {
+      "modelType": "MODEL_TYPE_ADVANCED",
+      "classificationThreshold": 0.30000001,
+      "languageCode": "en"
+    }
+  ]
 }
