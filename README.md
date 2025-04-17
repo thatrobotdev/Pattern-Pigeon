@@ -2,6 +2,8 @@
 
 # 🐦 Pattern Pigeon
 
+![Screenshot](.github/README/Screenshot%202025-04-17%20at%2011-34-51%20Coo%20coo!%20(Salutations!)%20🐦%20Pattern%20Pigeon.png)
+
 > Coo coo! I'm Pattern Pigeon–your feathered friend here to help you understand software architecture patterns like Strategy, Composite, and Observer. I might ruffle in a few pigeon facts too. What are you curious about today?
 
 Pattern Pigeon is a [deterministic](https://cloud.google.com/dialogflow/cx/docs/generative-deterministic#deterministic)[^1] conversational assistant built with Google Cloud's [Dialogflow CX](https://dialogflow.cloud.google.com/cx/projects) to teach the [Strategy](https://en.wikipedia.org/wiki/Strategy_pattern), [Composite](https://en.wikipedia.org/wiki/Composite_pattern), and [Observer](https://en.wikipedia.org/wiki/Observer_pattern) design patterns.
@@ -32,6 +34,6 @@ Follow the instructions from [Google Cloud](https://cloud.google.com/dialogflow/
 
 ![A pigeon standing in a flock alongside an image of a bird, a heart emoji, and the Apache software foundation feather](.github/README/Pigeon%20<3%20Apache/Pigeon%20<3%20Apache.png)
 
-> The pigeon photo used was taken by Muhammad Mahdi Karim/https://micro2macro.net. The image above is licensed under the [Free Art License](https://artlibre.org/licence/lal/en/). ([Learn more](.github/README/Pigeon%20<3%20Apache/LICENSE)). This project is not endorsed or connected to the Apache Software Foundation.
+> The pigeon photo used was taken by Muhammad Mahdi Karim/<https://micro2macro.net>. The image above is licensed under the [Free Art License](https://artlibre.org/licence/lal/en/). ([Learn more](.github/README/Pigeon%20<3%20Apache/LICENSE)). This project is not endorsed or connected to the Apache Software Foundation.
 
 This project is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html), [which you can read here](LICENSE).
