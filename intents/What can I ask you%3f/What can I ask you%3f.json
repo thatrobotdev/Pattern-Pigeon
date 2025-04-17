@@ -1,0 +1,7 @@
+{
+  "name": "bb264cae-6fde-4cef-81b8-527134676b3a",
+  "displayName": "What can I ask you?",
+  "priority": 500000,
+  "description": "This intent is triggered when the user asks the bot what it knows about the observer pattern.",
+  "numTrainingPhrases": 9
+}
