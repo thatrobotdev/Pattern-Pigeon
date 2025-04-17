@@ -102,7 +102,25 @@
   }, {
     "intent": "Go home",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "Okay! Enough strategy. Back to the coop!" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "What to dive into next, Composite, Observer, or Strategy?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
     },
     "targetFlow": "Default Start Flow",
     "name": "c35bb04d-c819-4d6b-9da5-a044b185aac2"

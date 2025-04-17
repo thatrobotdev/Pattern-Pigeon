@@ -21,6 +21,44 @@
       }
     },
     "name": "75c9fe7d-3382-4c6e-844e-9a8b7aff78d5"
+  }, {
+    "intent": "Deny",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Welcome back, coo coo! 🐦 What's next, a pigeon fact? Strategy? Composite? Observer? More options than pigeons on a wire!", "Here’s a quick reminder of what I can help you with: Strategy, Composite, Observer. Just say the name of a pattern, and I’ll wing it from there!", "🐦 Welcome back to the roost! Here’s a quick reminder of what I can help you with: Strategy, Composite, Observer. Just say the name of a pattern, and I’ll wing it from there!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "1f0378ef-6656-4185-98a0-6e47c203a4fe"
+  }, {
+    "intent": "Go home",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Welcome back, coo coo! 🐦 What's next, a pigeon fact? Strategy? Composite? Observer? More options than pigeons on a wire!", "Here’s a quick reminder of what I can help you with: Strategy, Composite, Observer. Just say the name of a pattern, and I’ll wing it from there!", "🐦 Welcome back to the roost! Here’s a quick reminder of what I can help you with: Strategy, Composite, Observer. Just say the name of a pattern, and I’ll wing it from there!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "8e19af6f-0ddf-45fb-93c4-f4c77c890c5e"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

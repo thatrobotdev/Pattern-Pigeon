@@ -26,11 +26,6 @@
           "text": [ "Back to the birdhouse we go!", "That's okay. Let's start over." ]
         },
         "languageCode": "en"
-      }, {
-        "text": {
-          "text": [ "Here’s a quick reminder of what I can help you with: Strategy, Composite, Observer. Just say the name of a pattern, and I’ll wing it from there!", "🐦 Welcome back to the roost! Here’s a quick reminder of what I can help you with: Strategy, Composite, Observer. Just say the name of a pattern, and I’ll wing it from there!" ]
-        },
-        "languageCode": "en"
       } ],
       "advancedSettings": {
         "playbackInterruptionSettings": {
@@ -41,6 +36,8 @@
         }
       }
     },
+    "targetFlow": "Default Start Flow",
     "name": "4ae71af8-bc11-4e0e-a27b-fcb5674e4bf0"
-  } ]
+  } ],
+  "transitionRouteGroups": [ "Home routes" ]
 }
