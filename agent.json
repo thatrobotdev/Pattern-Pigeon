@@ -4,10 +4,11 @@
   "timeZone": "America/Los_Angeles",
   "projectNumber": 4005955117,
   "speechToTextSettings": {
-  
+    "enableSpeechAdaptation": true
   },
   "startFlow": "Default Start Flow",
   "advancedSettings": {
+    "enabled": true,
     "audioExportGcsDestination": {
     
     },
@@ -15,10 +16,14 @@
       "endpointerSensitivity": 90,
       "noSpeechTimeout": {
         "seconds": 5
-      }
+      },
+      "models": [ {
+        "key": "en",
+        "value": "phone_call"
+      } ]
     },
     "playbackInterruptionSettings": {
-    
+      "allowPlaybackInterruption": true
     },
     "loggingSettings": {
     
@@ -29,6 +34,17 @@
   },
   "speakerIdSettings": {
   
+  },
+  "textToSpeechSettings": {
+    "synthesizeSpeechConfigs": [ {
+      "key": "en",
+      "value": {
+        "voice": {
+          "name": "en-US-Casual-K",
+          "ssmlGender": "SSML_VOICE_GENDER_MALE"
+        }
+      }
+    } ]
   },
   "duplexSettings": {
   

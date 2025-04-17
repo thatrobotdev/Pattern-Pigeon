@@ -54,5 +54,40 @@
     },
     "targetPage": "Observer Confirmation",
     "name": "9acf1e1c-c613-4f38-9120-4d47de73d84a"
+  }, {
+    "intent": "What pattern is the best for dealing with a tree hiearchy?",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Composite Confirmation",
+    "name": "f2156836-5cef-4c4c-9f23-c9320045268f"
+  }, {
+    "intent": "Go home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Start Page",
+    "name": "24980acb-d441-4b01-92ba-e77ebc7311f6"
+  }, {
+    "intent": "Learn about the Strategy pattern.",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Off we go! What would you like to know, coo coo!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Strategy",
+    "name": "62d777b5-32ef-47eb-b087-8e77486bf7c2",
+    "description": "Learn about the Strategy pattern."
   } ]
 }

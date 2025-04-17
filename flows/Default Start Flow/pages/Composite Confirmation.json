@@ -1,0 +1,78 @@
+{
+  "name": "5767bc82-6905-4d9c-8514-15bddc86d3e3",
+  "displayName": "Composite Confirmation",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The composite pattern is useful when you need to work with tree-like structures! Want to dive in?" ]
+      },
+      "languageCode": "en"
+    } ],
+    "advancedSettings": {
+      "playbackInterruptionSettings": {
+      
+      },
+      "dtmfSettings": {
+        "useSystemEntityRule": false
+      }
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "Confirm",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Coo, coo! What would you like to know?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Composite",
+    "name": "48a550b9-ee52-4049-8815-5e8c0852b4da"
+  }, {
+    "intent": "Deny",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "That's fine, back to the coop we go!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "a598426c-bfd5-4b89-995f-2d1ed5af8d01"
+  }, {
+    "intent": "Go home",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "5486a39e-20aa-4800-a738-fe9f7ed4fcd7"
+  }, {
+    "intent": "Pigeon Fact",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Pigeon Fact Redirect",
+    "name": "507b827d-384d-44d5-b822-89e70fdc14db"
+  } ]
+}
