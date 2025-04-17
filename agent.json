@@ -3,10 +3,44 @@
   "defaultLanguageCode": "en",
   "timeZone": "America/Los_Angeles",
   "projectNumber": 4005955117,
+  "speechToTextSettings": {
+  
+  },
   "startFlow": "Default Start Flow",
   "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
     "loggingSettings": {
     
+    },
+    "speechAdaptationSettings": {
+    
     }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "duplexSettings": {
+  
+  },
+  "callCompanionSettings": {
+    "company": "Pattern Pigeon"
+  },
+  "webClientSettings": {
+    "displayName": "Pattern Pigeon",
+    "logoUri": "https://www.jameskerrane.com/projects/pattern-pigeon/favicon.ico",
+    "font": "Lato",
+    "backgroundColor": "#4285F4",
+    "boxBorderRadius": "0"
   }
 }

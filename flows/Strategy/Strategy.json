@@ -1,6 +1,131 @@
 {
   "name": "657c5c35-3663-40a6-9b84-8ce8eea60514",
   "displayName": "Strategy",
+  "transitionRoutes": [ {
+    "intent": "What is the strategy pattern?",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "🐦 Coo coo! The Strategy pattern in a behavioral design pattern that defines a family of algorithms, encapsulates each one in a separate class, and makes them interchangeable. This allows the behavior of a class to be selected at runtime without modifying its code. It’s all about swapping strategies mid-flight—cleanly, flexibly, and with style." ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "51c4c9ab-efda-4213-a45b-8cb5c62b4022"
+  }, {
+    "intent": "What are examples of the Strategy pattern?",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "🐦 Coo! Just like a pigeon choosing whether to walk, fly, or glide based on the situation, your code can choose different strategies for different contexts." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "A common example is a navigation app. Suppose we have a class called `Navigator`. Instead of implementing a large `buildRoute(A, B)` that handles every routing logic internally, we delegate the route calculation to separate strategy classes–like `DrivingRouteStrategy`, `WalkingRouteStrategy`, or `CyclingRouteStrategy`. The `Navigator` simply delegates work to the current strategy, making it easy to switch behaviors without rewriting the logic.", "One example is a fighting video game, where each character has a unique moveset. Rather than hardcoding each fighter’s behavior into one giant `Fighter` class, we can use the Strategy pattern to separate the moveset logic.\n\nFor example, we might define a `MovesetStrategy` interface with methods like `lightAttack()`, `heavyAttack()`, and `specialMove()`. Then we create different strategy classes like `KarateMoveset`, `BoxingMoveset`, or `MagicMoveset`, each implementing those methods in their own way.\n\nThe `Fighter` class holds a reference to a `MovesetStrategy`, allowing you to assign or change fighting styles dynamically—like equipping a new skill set mid-game or supporting custom characters." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "🕊️ Changing strategies on the fly keeps things modular—and makes your code a bit more… flight-capable." ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "18855cd5-5bf0-4ddc-9aac-b69354947528",
+    "description": "What are examples of the Strategy pattern?"
+  }, {
+    "intent": "Why use the Strategy pattern?",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The Strategy pattern encourages maintainability and extensibility by decoupling algorithms from the classes that use them. This separation makes your software easier to test, more flexible, and open to extension—without ruffling the rest of your code." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "🪶 Swap strategies like feathers in the wind—no need to molt your whole codebase." ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "8ef0cbe8-4819-4d3b-9767-6a27dce73ccb"
+  }, {
+    "intent": "What disadvantages are there with the Strategy pattern?",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "🐦 Heads up! Even the smoothest glide has a few headwinds." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "While the Strategy pattern offers flexibility, it comes with a few trade-offs. It introduces more classes to manage, which can clutter your codebase if not kept in a tidy nest.", "For simple behaviors, using full-blown strategies might be overkill, making the design more complex than it needs to be. 🐤 Sometimes a simple flap will do—no need to bring out a whole flock for a short hop." ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "b0da0e70-b588-46de-b16a-f523a006c061",
+    "description": "What disadvantages are there with the Strategy pattern?"
+  }, {
+    "intent": "Go home",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "c35bb04d-c819-4d6b-9da5-a044b185aac2"
+  }, {
+    "intent": "What can I ask you about the Strategy pattern?",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Coo coo! You can ask me anything about the Strategy patten, like: What is the Strategy pattern? Can you give me an example? Why would I use it over other patterns? What are the trade-offs or downsides? 🐦 I’m happy to walk (or fly) you through the concept from theory to real-world use!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "e158c863-64eb-448c-b884-6209431a672d"
+  } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
     "triggerFulfillment": {
@@ -9,7 +134,20 @@
           "text": [ "Huh? Say that again, coo?", "Whaaat? I missed that, try flappin' it my way once more.", "Ey, sorry buddy, didn't catch that–mind sayin' it again?", "Squack! Can ya repeat that for me?", "One more peep? Didn't quite get it!", "Whoa whoa whoa–run that by me again?", "Coo? What'd you just say?", "Say it again, pal–I was peckin' at somethin' shiny.", "Wings down, I didn't hear ya–one more time?", "Can ya chirp that again? I zoned out mid-coo.", "Uh-oh, missed that one—gimme a repeat?", "Mind tossin’ those words my way again, chief?" ]
         },
         "languageCode": "en"
-      } ]
+      }, {
+        "text": {
+          "text": [ "Coo coo! You can ask me anything about the Strategy patten, like: What is the Strategy pattern? Can you give me an example? Why would I use it over other patterns? What are the trade-offs or downsides? 🐦 I’m happy to walk (or fly) you through the concept from theory to real-world use!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
     },
     "name": "60881fa3-3872-40e7-9359-84d8410e89db"
   }, {
@@ -20,7 +158,20 @@
           "text": [ "Huh? Say that again, coo?", "Whaaat? I missed that, try flappin' it my way once more.", "Ey, sorry buddy, didn't catch that–mind sayin' it again?", "Squack! Can ya repeat that for me?", "One more peep? Didn't quite get it!", "Whoa whoa whoa–run that by me again?", "Coo? What'd you just say?", "Say it again, pal–I was peckin' at somethin' shiny.", "Wings down, I didn't hear ya–one more time?", "Can ya chirp that again? I zoned out mid-coo.", "Uh-oh, missed that one—gimme a repeat?", "Mind tossin’ those words my way again, chief?" ]
         },
         "languageCode": "en"
-      } ]
+      }, {
+        "text": {
+          "text": [ "Coo coo! You can ask me anything about the Strategy patten, like: What is the Strategy pattern? Can you give me an example? Why would I use it over other patterns? What are the trade-offs or downsides? 🐦 I’m happy to walk (or fly) you through the concept from theory to real-world use!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
     },
     "name": "4894f4ad-1087-4bce-a115-7c2c206ca251"
   } ],

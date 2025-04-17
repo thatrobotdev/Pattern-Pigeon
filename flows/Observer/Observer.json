@@ -105,10 +105,42 @@
   }, {
     "intent": "What disadvantages are there with the Observer pattern?",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "With many observers, there could be performance implications of notifying all of them if the operation is costly or takes a long time. Also, the pattern relies on the reliability and format of the notification from the subject, so any updates to the publisher requires updates to the observers." ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
     },
-    "targetFlow": "Observer",
     "name": "53c382c8-ca20-4c31-8a11-b4b1fe3431d5"
+  }, {
+    "intent": "What can I ask you?",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "About the observer pattern, why not ask for some good examples? I can answer the difference between the Publisher/Subject and the Observer, why use the Observer pattern, and any disadvantages!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "advancedSettings": {
+        "playbackInterruptionSettings": {
+        
+        },
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    },
+    "name": "6ec063f3-971f-4d43-bb5f-476e2e791603",
+    "description": "When the user doesn't know what the bot can do."
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
